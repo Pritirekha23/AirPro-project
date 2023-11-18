@@ -5,7 +5,8 @@ import Grid from '@mui/system/Unstable_Grid';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
+import CardActionArea from '@mui/material/CardMedia'
+import Typography from '@mui/material/CardActionArea';
 
 // import Button from '@mui/material/Button';
 
@@ -52,24 +53,86 @@ const Home = () => {
         <img src={AtlasCopcoAirCompressorParts} alt="AtlasCopcoAirCompressorParts" />
 
       </Grid> */}
-      <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        sx={{ height: 140 }}
-        image="../assets/ReciprocatingAirCompressor.png"
-        title="ReciprocatingAirCompressor"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-     
-    </Card>
-      
+
+      <Grid className="home-page-images">
+        <Card sx={{ maxWidth: 345 }}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              height="140"
+              image="https://cmsimagesftp.blob.core.windows.net/container1/partsforcompressor/Reciprocating-Air-Compressor.png"
+              alt="ReciprocatingAirCompressor"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h2" component="div" className='home-page-image-heading'>
+                ReciprocatingAirCompressor
+              </Typography>
+              <Typography variant="body2" color="text.secondary" className='home-page-image-subheading'>
+                Multi Stage Piston Compressor , Two Stage Piston Compressor ,
+                Vacuum Compressor
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+        <Card sx={{ maxWidth: 345 }}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              height="140"
+              image="https://cmsimagesftp.blob.core.windows.net/container1/partsforcompressor/Ingersoll-Rand-Type-30-Parts.png"
+              alt="Ingersoll Rand Type 30 Air Compressor Parts"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div" className='home-page-image-heading'>
+                Ingersoll Rand Type 30 Air Compressor Parts
+              </Typography>
+              <Typography variant="body2" color="text.secondary" className='home-page-image-subheading'>
+                IR 15T2 Parts , IR 7T2 Parts , IR 231 Parts, IR 7100 Parts
+                IR 2340 Parts , IR 2475 Parts , IR 2540 Parts , IR 2545 Parts , IR 3000 Parts
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+        <Card sx={{ maxWidth: 345 }}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              height="140"
+              image="https://cmsimagesftp.blob.core.windows.net/container1/partsforcompressor/Ingersoll-Rand-Type-30-NL-Parts.png"
+              alt="Ingersoll Rand Type 30 NL Air Compressor Parts"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div" className='home-page-image-heading'>
+                Ingersoll Rand Type 30 NL Air Compressor Parts
+              </Typography>
+              <Typography variant="body2" color="text.secondary" className='home-page-image-subheading'>
+                IR 5T2NL Parts ,
+                IR 10T3NLM Parts
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+        <Card sx={{ maxWidth: 345 }}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              height="140"
+              image="https://cmsimagesftp.blob.core.windows.net/container1/partsforcompressor/Ingersoll-Rand-ESV-Parts.png"
+              alt="ReciprocatingAirCompressor"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div" className='home-page-image-heading'>
+                Ingersoll Rand ESV/ESH Air Compressor Parts
+              </Typography>
+              <Typography variant="body2" color="text.secondary" className='home-page-image-subheading'>
+                IR 7 x 5 ESV 1 LUB, 8 x 5 ESV 1 LUB , 9 1/2 x 5 ESV 1 LUB , 7 x 5 ESV 1 NL,
+                8 x 5 ESV 1 NL, 8 x 7 ESV 1 NL, 9 1/2 x 5 ESV 1 NL, 9 1/2 x 7 ESV 1 LUB,
+                9 x 7 ESV 1 NL, 8 x 7 ESV 1 LUB, 9 1/2 x 7 ESV 1 NL
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      </Grid>
     </Grid>
 
 

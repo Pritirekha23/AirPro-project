@@ -6,6 +6,18 @@
 .home-span{
     font-weight: 500;
 }
-
+.home-page-images{
+    margin-top: 2%;
+    display: flex;
+    gap: 2%;
+}
+.home-page-image-heading{
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.home-page-image-subheading{
+    font-weight: 400;
+    font-size: 0.7em;
+}
 
   
