@@ -7,9 +7,12 @@
     font-weight: 500;
 }
 .home-page-images{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     display: flex;
-    gap: 2%;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* gap: 2%; */
 }
 .home-page-image-heading{
     font-weight: 500;
