@@ -16,10 +16,39 @@ import Typography from '@mui/material/CardActionArea';
 // import IngersollRandESVParts from '../assets/IngersollRandESVParts.png';
 // import AtlasCopcoAirCompressorParts from '../assets/AtlasCopcoAirCompressorParts.png';
 
+const cardData = [
+  {
+    image: 'https://cmsimagesftp.blob.core.windows.net/container1/partsforcompressor/Reciprocating-Air-Compressor.png',
+    alt: 'ReciprocatingAirCompressor',
+    heading: 'ReciprocatingAirCompressor',
+    subheading: 'Multi Stage Piston Compressor , Two Stage Piston Compressor , Vacuum Compressor',
+  },
+  {
+    image: 'https://cmsimagesftp.blob.core.windows.net/container1/partsforcompressor/Ingersoll-Rand-Type-30-Parts.png',
+    alt: 'Ingersoll Rand Type 30 Air Compressor Parts',
+    heading: 'Ingersoll Rand Type 30 Air Compressor Parts',
+    subheading: 'IR 15T2 Parts , IR 7T2 Parts , IR 231 Parts, IR 7100 Parts IR 2340 Parts , IR 2475 Parts , IR 2540 Parts , IR 2545 Parts , IR 3000 Parts',
+  },
+  {
+    image:"https://cmsimagesftp.blob.core.windows.net/container1/partsforcompressor/Ingersoll-Rand-Type-30-Parts.png",
+    alt:"Ingersoll Rand Type 30 Air Compressor Parts",
+    heading: 'Ingersoll Rand Type 30 Air Compressor Parts',
+    subheading:'IR 5T2NL Parts,IR 10T3NLM Parts',
+  },
+  {
+    image:"https://cmsimagesftp.blob.core.windows.net/container1/partsforcompressor/Ingersoll-Rand-ESV-Parts.png",
+    alt:"ReciprocatingAirCompressor",
+    heading: 'ReciprocatingAirCompressor',
+    subheading:' IR 7 x 5 ESV 1 LUB, 8 x 5 ESV 1 LUB , 9 1/2 x 5 ESV 1 LUB , 7 x 5 ESV 1 NL,8 x 5 ESV 1 NL, 8 x 7 ESV 1 NL, 9 1/2 x ESV 1 NL, 9 1/2 x 7 ESV 1 LUB,9 x 7 ESV 1 NL, 8 x 7 ESV 1 LUB, 9 1/2 x 7 ESV 1 NL',
+  },
+  {
+    image:"https://cmsimagesftp.blob.core.windows.net/container1/partsforcompressor/Atlas-Copco-Air-Compressor-Parts.png",
+    alt:"Atlas Copco Air Compressor Parts",
+    heading:"Atlas Copco Air Compressor Parts",
+    subheading:"Atlas Copco VT 4 Parts Atlas Copco VT 5 Parts",
+  }
 
-
-
-// import Typography from '@mui/material/Typography';
+];
 
 const Home = () => {
   return (
@@ -54,7 +83,9 @@ const Home = () => {
 
       </Grid> */}
 
-      <Grid className="home-page-images">
+
+      {/* u can add this code but it is not responsicve */}
+      {/* <Grid className="home-page-images">
         <Card sx={{ maxWidth: 345 }}>
           <CardActionArea>
             <CardMedia
@@ -132,7 +163,36 @@ const Home = () => {
             </CardContent>
           </CardActionArea>
         </Card>
+      </Grid> */}
+
+
+      <Grid container className="home-page-images" spacing={2}>
+        {cardData.map((card, index) => (
+          <Grid item xs={12} sm={6} md={4} key={index}>
+            <Card sx={{ maxWidth: 345 }}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image={card.image}
+                  alt={card.alt}
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div" className='home-page-image-heading'>
+                    {card.heading}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" className='home-page-image-subheading'>
+                    {card.subheading}
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+        ))}
       </Grid>
+
+
+
     </Grid>
 
 
