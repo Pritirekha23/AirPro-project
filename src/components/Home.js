@@ -56,7 +56,7 @@ const Home = () => {
 
     <Grid className="home-container-page">
 
-      <Grid item xs={12}>
+      <Grid item xs={12} >
 
         <h3>Parts For Compressor</h3>
 
@@ -162,13 +162,14 @@ const Home = () => {
       <Grid container className="home-page-images m-3" spacing={3}>
         {cardData.map((card, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card sx={{ maxWidth: 345 ,height: 260}}>
+            <Card sx={{ maxWidth: 345 ,height: 260}} className="card">
               <CardActionArea style={{ height: '100%' }}>
                 <CardMedia
                   component="img"
                   height="140"
                   image={card.image}
                   alt={card.alt}
+                  className='card-media'
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div" className='home-page-image-heading'>

@@ -1,7 +1,7 @@
 
 
 .home-container-page{
-    margin: 1%;
+    margin: 5%;
 }
 .home-span{
     font-weight: 500;
@@ -16,11 +16,26 @@
 }
 .home-page-image-heading{
     font-weight: 500;
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 .home-page-image-subheading{
     font-weight: 400;
     font-size: 0.7em;
 }
 
+
+.card-media {
+    transition: transform 0.3s ease-in-out;
+  }
   
+.card-media:hover {
+    transform: scale(1.1); 
+}
+.card {
+    transition: height 0.5s ease-in-out 0.9s;
+  }
+  
+.card:hover {
+    transform: scaleY(1.05); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+  }

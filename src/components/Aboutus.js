@@ -5,7 +5,7 @@ import '../style/Aboutus.css';
 function Aboutus() {
     return (
         <>
-            <Grid className="aboutus-page-main m-4">
+            <Grid className="aboutus-page-main m-2">
                 <Typography  className='m-2'> We have the pleasure to introduce ourselves as the leading supplier of replacement spares and service contractors for Ingersoll-Rand, Dresser-Rand, Chicago Pneumatics, Atlas Copco, and Kirloskar Make Air & Gas Compressors in North & South India.
                 </Typography>
                 <Typography className='aboutus-page-heading m-2'>
