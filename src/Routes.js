@@ -13,11 +13,7 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/Menu" element={<Menu />} />
         <Route path="/Aboutus" element={<Aboutus/>} />
-        
-        
-
         {/* <Route path="/Requestforquote" element={<Requestforquote/>} /> */}
-       
         
       </Routes>
     </Router>
