@@ -54,11 +54,11 @@ const cardData = [
 const Home = () => {
   return (
 
-    <Grid className="home-container-page">
+    <Grid className="home-container-page ">
 
-      <Grid item xs={12} >
+      <Grid item xs={12}>
 
-        <h3>Parts For Compressor</h3>
+        <h3 >Parts For Compressor</h3>
 
         <Grid item xs={12} md={6}><span className='home-span'>Parts For Compressor</span> | Partsforcompressor.com is a Global Supplier of OEM Quality New Aftermarket Replacement <span className='home-span'>Air Compressor parts , Parts for Compressor, Ingersoll Rand Air Compressor Parts, Atlas Copco Air Compressor Parts</span> from India.</Grid>
 
