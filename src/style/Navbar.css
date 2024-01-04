@@ -3,7 +3,7 @@
 
   
 .navbar-nam{
-    font-size: 18px;
+  font-size: 18px;
   /* font-family: 'Bacasime Antique', serif;
   font-family: 'Lato', sans-serif; */
   font-family: 'Poppins', sans-serif;
@@ -12,17 +12,14 @@
   font-family: 'Ysabeau Office', sans-serif; */
 }
 
-/* YourComponent.css */
 
 
-/* YourComponent.css */
 
-
-.menu-dropdown .nav-link {
+/* .menu-dropdown .nav-link {
   color: red;
 }
 
 .menu-dropdown .drp:hover {
   background-color: green;
-}
+} */
 

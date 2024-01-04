@@ -2,7 +2,7 @@ import React from 'react'
 
 function ReciprocatingAirCompressor() {
   return (
-    <div>
+    <div className='rec'>
       <h3> ReciprocatingAirCompressor</h3>
     </div>
   )
