@@ -30,13 +30,13 @@ const Navbar = () => {
             <span className="mx-5"></span>
             {/* <Nav.Link href="/Menu" style={linkStyle} >Menu</Nav.Link> */}
 
-            <NavDropdown title="Menu" id="basic-nav-dropdown" className="menu-dropdown">
+            <NavDropdown title="Menu" id="basic-nav-dropdown" className="menu-dropdown  ">
 
-              <NavDropdown.Item href="/Reciprocating Air Compressor" className='btn-group dropend'>Reciprocating Air Compressor
-                <NavDropdown>
+              <NavDropdown.Item href="/Reciprocating Air Compressor" className='btn-group dropend '>Reciprocating Air Compressor
+                {/* <NavDropdown>
                   <NavDropdown.Item href="/ReciprocatingAirCompressor/subpage1">Subpage 1</NavDropdown.Item>
                   <NavDropdown.Item href="/page1/subpage2">Subpage 2</NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
               </NavDropdown.Item>
 
               <NavDropdown.Item href="#Ingersoll Rand Type 30 Parts">Ingresoll Rand Type 30 Parts</NavDropdown.Item>

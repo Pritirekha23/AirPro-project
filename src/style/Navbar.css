@@ -11,3 +11,18 @@
   font-family: 'Work Sans', sans-serif;
   font-family: 'Ysabeau Office', sans-serif; */
 }
+
+/* YourComponent.css */
+
+
+/* YourComponent.css */
+
+
+.menu-dropdown .nav-link {
+  color: red;
+}
+
+.menu-dropdown .drp:hover {
+  background-color: green;
+}
+
