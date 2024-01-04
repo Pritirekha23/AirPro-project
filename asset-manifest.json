@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AirPro-project/static/css/main.9a61b2f3.css",
+    "main.js": "/AirPro-project/static/js/main.ddf7ad69.js",
+    "static/js/787.a2920bef.chunk.js": "/AirPro-project/static/js/787.a2920bef.chunk.js",
+    "static/media/logoap.jpeg": "/AirPro-project/static/media/logoap.e561ca134731664a495f.jpeg",
+    "index.html": "/AirPro-project/index.html",
+    "main.9a61b2f3.css.map": "/AirPro-project/static/css/main.9a61b2f3.css.map",
+    "main.ddf7ad69.js.map": "/AirPro-project/static/js/main.ddf7ad69.js.map",
+    "787.a2920bef.chunk.js.map": "/AirPro-project/static/js/787.a2920bef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a61b2f3.css",
+    "static/js/main.ddf7ad69.js"
+  ]
+}
