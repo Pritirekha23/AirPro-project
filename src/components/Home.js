@@ -86,10 +86,10 @@ const Home = () => {
                 <CardContent >
                   <Typography gutterBottom variant="h5" component="div" className='home-page-image-heading'>
                     {card.heading}
-                  </Typography>
+                  </Typography><hr/>
                   <Typography variant="body2" color="text.secondary" className='home-page-image-subheading'>
                     {card.subheading}
-                  </Typography><hr/>
+                  </Typography>
                   <Grid className="home-btn-link">
                     <a href="#" className="btn btn-danger">Click Here</a>
                   </Grid>
