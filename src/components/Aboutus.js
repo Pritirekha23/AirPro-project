@@ -42,7 +42,7 @@ function Aboutus() {
         //             </Typography>
         // </Grid> 
         
-            <Grid container spacing={2} className="aboutus-page-container about-fnd">
+            <Grid container spacing={2} className="aboutus-page-container ">
                 <Typography>Hello</Typography>
                 <Grid item xs={12} sm={6} className="about-2nd">
                     <Typography variant="body1">

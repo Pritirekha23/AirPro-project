@@ -60,7 +60,7 @@ const cardData = [
 const Home = () => {
   return (
 
-    <Grid className="home-container-page ">
+    <Grid className="home-container-page">
 
       <Grid item xs={12} className="home-page-textf">
 
